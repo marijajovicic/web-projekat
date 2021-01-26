@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  background: linear-gradient(to right, #9b1d0a, #d40019);
+  color: rgba(255, 255, 255, 0.842);
+}
+
+.glavni-div {
+  margin: 50px;
+}
+
+.donji-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.lokacija-krsta {
+  text-align: center;
+}
+
+.levi-div {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.levi-div input,
+.levi-div select {
+  background-color: #cc2121;
+}
+
+.dodaj-tim-div,
+.dodaj-volontera-div,
+.azuriraj-i-obrisi-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+.levi-div button {
+  background-color: rgb(59, 7, 7);
+}
+
+.levi-div > div {
+  text-align: center;
+}
+
+.desni-div {
+  flex-grow: 1;
+}
+
+.dodaj-volontera-div {
+  border: 1px solid rgb(238, 228, 228);
+}
+
+.dodaj-tim-div {
+  border-style: solid;
+  border-width: thin;
+}
+
+.volonteri-u-timu {
+  flex-grow: 1;
+  border: 1px solid rgb(238, 228, 228);
+  display: flex;
+  border-collapse: collapse;
+}
+
+.tim {
+  border-style: solid;
+  border-width: thin;
+}
+
+.red {
+  flex-grow: 1;
+  display: flex;
+  margin: 10px;
+}
+
+.levi-div-desno {
+  flex-basis: 100px;
+}
+
+.desni-div-desno {
+  flex-grow: 1;
+  display: flex;
+}
+
+.volonter {
+  border: 1px solid rgb(238, 228, 228);
+  border-collapse: initial;
+
+  text-align: center;
+}
+
+.azuriraj-i-obrisi-div {
+  border-style: solid;
+  border-width: thin;
+}
+
+.desni-div-desno label {
+  flex-basis: 40px;
+}
+
+.select-volonter,
+.button-dodaj-tim,
+.select-tim,
+.button-dodaj-volontera,
+.button-obrisi-volontera,
+.button-azuriraj,
+.select-timova,
+.input-max-clanova,
+.select-clana {
+  width: 165px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.naziv-tima,
+.vodja-tima,
+.ime-volontera,
+.prezime-volontera,
+.dodaj-u-tim,
+.max-broj-clanova {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
